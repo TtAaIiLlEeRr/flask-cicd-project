@@ -26,8 +26,6 @@ jobs:
         run: |
           python -m pytest -v
       
-      # === НОВЫЕ ШАГИ: Docker ===
-      
       - name: Логинимся в Docker Hub
         uses: docker/login-action@v2
         with:
